@@ -26,8 +26,8 @@ function Detente(){
 if(watchID){
 navigator .accelerometer.clearWatch (watchID);
 watchID=null;
-		}
-	}
+}
+}
 	//Correcto:Toma una captura de la aceleracion
 function Correcto(acceleration){
 var element=document.getElementById('acelerometro');

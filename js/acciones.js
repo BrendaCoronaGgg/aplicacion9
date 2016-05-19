@@ -24,7 +24,7 @@ navigator.geolocation.getCurrentPosition(Localiza,ErrorLocalizacion);
 	
 function Detente(){
 if(watchID){
-navigator .accelerometer.clearWatch (watchID);
+navigator.accelerometer.clearWatch (watchID);
 watchID=null;
 }
 }
